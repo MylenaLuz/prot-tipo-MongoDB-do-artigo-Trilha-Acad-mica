@@ -1,0 +1,244 @@
+{
+  "totais": {
+    "disciplinas": 10,
+    "alunos": 300,
+    "registros_historico": 2153
+  },
+  "C1": {
+    "_id": "RA24000073",
+    "nome": "Carla Costa",
+    "curso": "Engenharia de Software",
+    "ingresso": "2025.1",
+    "historico": [
+      {
+        "disciplina": "mat1",
+        "semestre": "2025.1",
+        "nota": 8.5,
+        "situacao": "aprovado"
+      },
+      {
+        "disciplina": "alg1",
+        "semestre": "2025.1",
+        "nota": 6.6,
+        "situacao": "aprovado"
+      },
+      {
+        "disciplina": "es",
+        "semestre": "2025.1",
+        "nota": 7.2,
+        "situacao": "aprovado"
+      },
+      {
+        "disciplina": "alg2",
+        "semestre": "2025.2",
+        "nota": 2.8,
+        "situacao": "reprovado"
+      },
+      {
+        "disciplina": "ed",
+        "semestre": "2025.2",
+        "nota": 7.4,
+        "situacao": "aprovado"
+      },
+      {
+        "disciplina": "alg2",
+        "semestre": "2026.1",
+        "nota": 5.3,
+        "situacao": "reprovado"
+      },
+      {
+        "disciplina": "bd",
+        "semestre": "2026.1",
+        "nota": 8.3,
+        "situacao": "aprovado"
+      }
+    ]
+  },
+  "C1_explain": 1,
+  "C2": [
+    {
+      "aprovadas": [
+        "mat1",
+        "alg1",
+        "es",
+        "ed",
+        "bd"
+      ],
+      "liberadas": [
+        {
+          "_id": "alg2",
+          "nome": "Algoritmos II",
+          "periodo": 2,
+          "creditos": 4
+        },
+        {
+          "_id": "tcc",
+          "nome": "Trabalho de Conclusão de Curso",
+          "periodo": 4,
+          "creditos": 4
+        }
+      ]
+    }
+  ],
+  "C3": [
+    {
+      "cadeia": [
+        {
+          "disciplina": "ed",
+          "nivel": 0
+        },
+        {
+          "disciplina": "plp",
+          "nivel": 0
+        },
+        {
+          "disciplina": "alg1",
+          "nivel": 1
+        },
+        {
+          "disciplina": "alg2",
+          "nivel": 1
+        },
+        {
+          "disciplina": "mat1",
+          "nivel": 1
+        }
+      ]
+    }
+  ],
+  "C4": [
+    {
+      "bloqueadas": [
+        {
+          "disciplina": "plp",
+          "nivel": 0
+        },
+        {
+          "disciplina": "comp",
+          "nivel": 1
+        },
+        {
+          "disciplina": "ia",
+          "nivel": 1
+        }
+      ]
+    }
+  ],
+  "C4b_travados_alg2": 23,
+  "C4b_plano": "IXSCAN",
+  "C4b_docs_examinados": 55,
+  "C5": [
+    {
+      "_id": "comp",
+      "tentativas": 69,
+      "reprovacoes": 24,
+      "media": 6.71,
+      "taxa_reprovacao": 34.8
+    },
+    {
+      "_id": "mat1",
+      "tentativas": 393,
+      "reprovacoes": 120,
+      "media": 6.75,
+      "taxa_reprovacao": 30.5
+    },
+    {
+      "_id": "ed",
+      "tentativas": 284,
+      "reprovacoes": 82,
+      "media": 6.8,
+      "taxa_reprovacao": 28.9
+    },
+    {
+      "_id": "alg2",
+      "tentativas": 269,
+      "reprovacoes": 69,
+      "media": 6.89,
+      "taxa_reprovacao": 25.7
+    },
+    {
+      "_id": "ia",
+      "tentativas": 76,
+      "reprovacoes": 19,
+      "media": 6.96,
+      "taxa_reprovacao": 25.0
+    },
+    {
+      "_id": "alg1",
+      "tentativas": 364,
+      "reprovacoes": 82,
+      "media": 7.05,
+      "taxa_reprovacao": 22.5
+    },
+    {
+      "_id": "bd",
+      "tentativas": 152,
+      "reprovacoes": 24,
+      "media": 7.24,
+      "taxa_reprovacao": 15.8
+    },
+    {
+      "_id": "plp",
+      "tentativas": 153,
+      "reprovacoes": 23,
+      "media": 7.34,
+      "taxa_reprovacao": 15.0
+    },
+    {
+      "_id": "tcc",
+      "tentativas": 74,
+      "reprovacoes": 8,
+      "media": 7.63,
+      "taxa_reprovacao": 10.8
+    },
+    {
+      "_id": "es",
+      "tentativas": 319,
+      "reprovacoes": 27,
+      "media": 7.66,
+      "taxa_reprovacao": 8.5
+    }
+  ],
+  "C6": [
+    {
+      "_id": "comp",
+      "alunos_aptos": 83
+    },
+    {
+      "_id": "alg2",
+      "alunos_aptos": 82
+    },
+    {
+      "_id": "ed",
+      "alunos_aptos": 80
+    },
+    {
+      "_id": "bd",
+      "alunos_aptos": 74
+    },
+    {
+      "_id": "ia",
+      "alunos_aptos": 73
+    },
+    {
+      "_id": "tcc",
+      "alunos_aptos": 62
+    },
+    {
+      "_id": "plp",
+      "alunos_aptos": 59
+    },
+    {
+      "_id": "mat1",
+      "alunos_aptos": 27
+    },
+    {
+      "_id": "alg1",
+      "alunos_aptos": 18
+    },
+    {
+      "_id": "es",
+      "alunos_aptos": 8
+    }
+  ]
+}

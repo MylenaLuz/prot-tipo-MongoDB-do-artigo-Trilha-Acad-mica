@@ -1,0 +1,11 @@
+services:
+  mongo:
+    image: mongo:8.0
+    container_name: trilha-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - trilha-data:/data/db
+
+volumes:
+  trilha-data:
